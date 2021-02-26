@@ -29,3 +29,30 @@
 - Bachelor of Science, Westminster international University, 2018.
 Faculty of Business information System
 - Сompleted java courses at UCD Micros. Tashkent.
+
+## Code examples 
+ ```javascript
+function positiveSum(arr) {
+  let sum = 0;
+  let positive = arr.filter(function (a) { return a >= 0; });
+  for(let i = 0; i < positive.length; i++){
+    sum += positive[i];
+    }
+  return sum;
+  
+}
+
+function distinct(a) {
+   return a.sort().filter(function(item, pos, ary) {
+        return !pos || item != ary[pos - 1];
+    });
+
+}
+function distinct(a) {
+   return Array.from(new Set(a));
+
+}
+```
+## Languages
+- Chinese (HSK 3)
+- English (Ielts 6)
