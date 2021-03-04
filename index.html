@@ -10,10 +10,13 @@
   </head>
   <body>
     <main class="main-cv">
+     
       <div class="info">
+        <header>
           <h1>Yusuf Giyaziddinov</h1>
+        </header>
           <div class="img">
-            <img class="avatar" src="img/me.jpg" alt="">
+            <img class="avatar" src="img/me.jpg" alt="myPhoto">
           </div>
           <ul>
             <li><strong>Address:</strong>Uzbekistan. Tashkent. Boston-5 str. 7</li>
@@ -65,10 +68,12 @@
           </ul>
 
           <hr>
-              
+        
+          
+        <section class="code-cv">
           <h2>Code Examples</h2>
 
-          <p>
+          <p><code>
             function positiveSum(arr) {
                 let sum = 0;
                 let positive = arr.filter(function (a) { return a >= 0; });
@@ -89,14 +94,24 @@
                  return Array.from(new Set(a));
               
               }
-          </p>
+            </code></p>
+        </section>  
 
           <h2>Languages</h2>
+          <details>
           <ul>
             <li>English (Ielts 6)</li>
             <li>Chinese (HSK 3)</li>
           </ul>
+        </details>
       </div>
-    </main>
+    </main> 
+    <footer class="footer">
+      <div class="container text-left">
+          <small ><a href="https://github.com/Ultralos">Yusuf Giyaziddinov 2021</a></small>
+          <a href="https://rs.school/js/"><img class="" src="img/rs_school_js.svg" width="60" height="18" alt="myPhoto">  </small></a>
+          <a href="https://www.youtube.com/"> </small><img class="" src="img/YouTube_full-color_icon_(2017).svg" width="60" height="18" alt="myPhoto"></a>
+      </div>
+  </footer>
   </body>
 </html>
